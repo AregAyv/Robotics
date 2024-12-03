@@ -1,0 +1,40 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Виртуальные среды Python
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Загрузки и конфиденциальные данные
+*.weights
+*.cfg
+*.json
+*.env
+
+# Файлы, связанные с OS
+*.bak
+*.orig
+
+# Файлы из pipenv/poetry
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
